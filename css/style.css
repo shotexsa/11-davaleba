@@ -1,0 +1,90 @@
+.container{
+	max-width: 1366px;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color:yellow;
+}
+
+a{
+	padding-right:70px;
+	transition: all ease;
+}
+a:hover{
+	color:red;
+}
+.gogoebi{
+	background-image:url("../img/gogoebi.svg"); 
+	height:600px;
+	width:1300px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	display:inline-block;
+	margin:50px;
+}
+.gogoebi:hover{
+  
+    background-image:url("https://images.unsplash.com/photo-1505377059067-e285a7bac49b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+.container2{
+	max-width: 1366px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	position:relative;
+	animation: marcxena 15s infinite;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	
+}
+.marcxena{
+	width:560px;
+	height:280px;
+	position:absolute;
+	left:850px;
+
+}
+
+
+@keyframes marcxena{
+
+	from {left:850px;}
+	to {left:250px;}
+
+}
+
+.marjvena{
+	width:560px;
+	height:280px;
+	
+}
+
+.container3{
+	max-width: 1200px;
+	width:100%;
+	margin:0 auto;
+	background-color: brown;
+	margin-top: 100px;
+
+}
+.input{
+	width:400px;
+	height: 50px;
+	padding:30px;
+}
+.input-box{
+	display:flex;
+	flex-direction: column;
+}
+.button{
+	background-color:red;
+	background:none;
+	padding:20px;
+	border-radius:15px;
+}
